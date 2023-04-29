@@ -85,6 +85,9 @@ private:
 	UPROPERTY()
 		TSubclassOf<UUserWidget> pauseWidgetClass;
 
+	UPROPERTY()
+		UUserWidget* PauseWidget;
+
 	//Generating components
 	UPROPERTY()
 		UCameraComponent* cam;
